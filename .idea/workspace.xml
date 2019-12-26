@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e66eda-6cab-426e-9e7d-f058cb324c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch03/ex08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/ex09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/mnist.7z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/pengsoo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/ex10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/ex11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/pengsoo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/ryan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03/ryan2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/ex07.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/ex07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/ex08.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/ex08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/ex09.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/ex09.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,49 +46,7 @@
       <recent name="C:\dev\lab_dl\ch01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex09">
-    <configuration name="ex05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab_dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch03/ex05.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab_dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch03/ex06.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ex08">
     <configuration name="ex07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,13 +110,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab_dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch03/ex10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab_dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch03/ex11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex09" />
         <item itemvalue="Python.ex08" />
+        <item itemvalue="Python.ex11" />
+        <item itemvalue="Python.ex10" />
+        <item itemvalue="Python.ex09" />
         <item itemvalue="Python.ex07" />
-        <item itemvalue="Python.ex06" />
-        <item itemvalue="Python.ex05" />
       </list>
     </recent_temporary>
   </component>
@@ -190,22 +191,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="359" key="GridCell.Tab.0.bottom" timestamp="1577179134859">
+    <state width="1899" height="359" key="GridCell.Tab.0.bottom" timestamp="1577351927125">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1577179134859" />
-    <state width="1877" height="359" key="GridCell.Tab.0.center" timestamp="1577179134859">
+    <state width="1899" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1577351927125" />
+    <state width="1899" height="359" key="GridCell.Tab.0.center" timestamp="1577351927125">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1577179134859" />
-    <state width="1877" height="359" key="GridCell.Tab.0.left" timestamp="1577179134859">
+    <state width="1899" height="359" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1577351927125" />
+    <state width="1899" height="359" key="GridCell.Tab.0.left" timestamp="1577351927125">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1577179134859" />
-    <state width="1877" height="359" key="GridCell.Tab.0.right" timestamp="1577179134859">
+    <state width="1899" height="359" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1577351927125" />
+    <state width="1899" height="359" key="GridCell.Tab.0.right" timestamp="1577351927125">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1577179134859" />
+    <state width="1899" height="359" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1577351927125" />
     <state width="1899" height="411" key="GridCell.Tab.1.bottom" timestamp="1577069563656">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -226,9 +227,13 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="241" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1577148424479" />
-    <state x="652" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1577148515468">
+    <state x="652" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1577321022107">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="652" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1577148515468" />
+    <state x="652" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1577321022107" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1577346555017">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1577346555017" />
   </component>
 </project>
