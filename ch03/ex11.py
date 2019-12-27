@@ -1,8 +1,8 @@
 """
 mini-batch
 """
+import pickle
 import numpy as np
-
 from ch03.ex01 import sigmoid
 from dataset.mnist import load_mnist
 
@@ -79,29 +79,22 @@ def forward(network, x):
     return y
 
 
+def mini_batch(network, X, batch_size):
+    y_pred = np.array([])  # 예측값들을 저장할 배열
+    # batch_size 만큼씩 X의 데이터들을 나눠서 forward propagation(전파)
+
+    for i in range(0, len(X), batch_size):
+        X_batch = X[i:(i + batch_size)]
+        # print('i:', i, 'i+batch_size:', i+batch_size)
+        y_hat = forward(network, X_batch)  # (batch_size, 10) shape의 배열
+        predictions = np.argmax(y_hat, axis=1)  # 각 row에서 최댓값의 인덱스 -> (batch_size,) 배열
+        y_pred = np.append(y_pred, predictions)  # 예측값들을 결과 배열에 추가
+    return y_pred  # (len(X),) shape의 배열
 
 
+def accuracy(y_true, y_pred):
+    return np.mean(y_true == y_pred)
 
-
-def mini_batch(network, X_test, batch_size):
-    y_pred = []
-    # random index로 sample 나누기
-
-    batch_test = []
-
-    for size in range(1, len(X_test), batch_size):
-        
-
-    for tests in batch_test:
-        for sample in tests:  # 테스트 세트의 각 이미지들에 대해서 반복
-            # 이미지를 신경망에 전파(통과)시켜서 어떤 숫자가 될 지 확률을 계산.
-            sample_hat = forward(network, sample)
-            # 가장 큰 확률의 인덱스(-> 예측값)를 찾음.
-            sample_pred = np.argmax(sample_hat)
-            y_pred.append(sample_pred)  # 예측값을 결과 리스트에 추가
-
-
-    return np.array(y_pred)
 
 
 if __name__ == '__main__':
@@ -120,16 +113,30 @@ if __name__ == '__main__':
     (X_train, y_train), (X_test, y_test) = load_mnist(normalize=True,
                                                       flatten=True,
                                                       one_hot_label=False)
+    print('X_test.shape:', X_test.shape)
+    print('y_test.shape:', y_test.shape)
+
     # 신경망 생성 (W1, b1, ...)
-    network = init_network()
-    W1, W2, W3 = network['W1'], network['W2'], network['W3']
-    b1, b2, b3 = network['b1'], network['b2'], network['b3']
+    with open('sample_weight.pkl', 'rb') as file:
+        network = pickle.load(file)
+        W1, W2, W3 = network['W1'], network['W2'], network['W3']
+        b1, b2, b3 = network['b1'], network['b2'], network['b3']
+    print('network:', network.keys())
+    print('W1:', network['W1'].shape)
+    print('W2:', network['W2'].shape)
+    print('W3:', network['W3'].shape)
 
-
-    batch_size = 100
+    batch_size = 77
     y_pred = mini_batch(network, X_test, batch_size)
+    print('true[:10]', y_test[:10])
+    print('pred[:10]', y_pred[:10])
+    print('true[-10:]', y_test[-10:])
+    print('pred[-10:]', y_pred[-10:])
 
     # 정확도(accuracy) 출력
     acc = accuracy(y_test, y_pred)
-    print('정확도(accuracy) =', acc)
+    print('정확도:', acc)
+
+    # acc = accuracy(y_test, y_pred)
+    # print('정확도(accuracy) =', acc)
 
