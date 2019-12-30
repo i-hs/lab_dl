@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e66eda-6cab-426e-9e7d-f058cb324c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch03/ex12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/ex02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/ex03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/ex04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/ex05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/ex06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/ex07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/ex08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/ex11.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/ex11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/ex03.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch04/ex03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +45,8 @@
       <recent name="C:\dev\lab_dl\ch01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex05">
-    <configuration name="ex01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ex08">
+    <configuration name="ex06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,7 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/ex01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/ex06.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/ex02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/ex07.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex08 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch04" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/ex03.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/ex08.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/ex04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/ex08.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/ex05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex05" />
-        <item itemvalue="Python.ex03" />
-        <item itemvalue="Python.ex04" />
-        <item itemvalue="Python.ex02" />
-        <item itemvalue="Python.ex01" />
+        <item itemvalue="Python.ex08" />
+        <item itemvalue="Python.ex08 (1)" />
+        <item itemvalue="Python.ex07" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.ex06" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +186,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
@@ -197,49 +205,57 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="740" y="355" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1577420296769" />
-    <state width="1860" height="359" key="GridCell.Tab.0.bottom" timestamp="1577437029226">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1577696306725">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1860" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1577437029226" />
-    <state width="1860" height="359" key="GridCell.Tab.0.center" timestamp="1577437029226">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1577696306725" />
+    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1577696306725">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1860" height="359" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1577437029226" />
-    <state width="1860" height="359" key="GridCell.Tab.0.left" timestamp="1577437029226">
+    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1577696306725" />
+    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1577696306725">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1860" height="359" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1577437029226" />
-    <state width="1860" height="359" key="GridCell.Tab.0.right" timestamp="1577437029226">
+    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1577696306725" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1577696306725">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1860" height="359" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1577437029226" />
-    <state width="1899" height="411" key="GridCell.Tab.1.bottom" timestamp="1577069563656">
+    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1577696306725" />
+    <state width="1877" height="411" key="GridCell.Tab.1.bottom" timestamp="1577693868242">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="411" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1577069563656" />
-    <state width="1899" height="411" key="GridCell.Tab.1.center" timestamp="1577069563656">
+    <state width="1877" height="411" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1577693868242" />
+    <state width="1877" height="411" key="GridCell.Tab.1.center" timestamp="1577693868242">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="411" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1577069563656" />
-    <state width="1899" height="411" key="GridCell.Tab.1.left" timestamp="1577069563656">
+    <state width="1877" height="411" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1577693868242" />
+    <state width="1877" height="411" key="GridCell.Tab.1.left" timestamp="1577693868242">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="411" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1577069563656" />
-    <state width="1899" height="411" key="GridCell.Tab.1.right" timestamp="1577069563656">
+    <state width="1877" height="411" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1577693868242" />
+    <state width="1877" height="411" key="GridCell.Tab.1.right" timestamp="1577693868242">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="411" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1577069563656" />
+    <state width="1877" height="411" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1577693868242" />
     <state x="461" y="241" key="SettingsEditor" timestamp="1577148424479">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="241" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1577148424479" />
-    <state x="652" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1577407126696">
+    <state x="652" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1577666588075">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="652" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1577407126696" />
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1577423720170">
+    <state x="652" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1577666588075" />
+    <state x="530" y="336" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577693861753">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1577423720170" />
+    <state x="530" y="336" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1200@0.0.1920.1200" timestamp="1577693861753" />
+    <state x="601" y="326" width="700" height="530" key="recent.locations.popup" timestamp="1577695562443">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="601" y="326" width="700" height="530" key="recent.locations.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1577695562443" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1577689926024">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1577689926024" />
   </component>
 </project>
