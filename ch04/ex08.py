@@ -32,17 +32,13 @@ def softmax(X):
     return y
 
 
-def _cross_entropy(y_pred, y_true):
-    delta = 1e-7  # log0 = -inf 가 되는 것을 방지하기 위해서 더해줄 값
-    return -np.sum(y_true * np.log(y_pred + delta))
-
-
 def cross_entropy(y_pred, y_true):
+    delta = 1e-7
     if y_pred.ndim == 1:
-        ce = _cross_entropy(y_pred, y_true)
+        return -np.sum(y_true * np.log(y_pred + delta))
     elif y_pred.ndim == 2:
-        ce = _cross_entropy(y_pred, y_true) / len(y_pred)
-    return ce
+        return -np.sum(y_true * np.log(y_pred + delta)) / len(y_pred)
+
 
 
 def partial_gradient_dim_1(fn, x):
@@ -85,7 +81,6 @@ def partial_gradient(fn, x):
             # print(f'gradient[{i}]:{gradient[i]}')
         return gradient
 
-
 class SimpleNetwork:
     def __init__(self):
         np.random.seed(1230)
@@ -122,33 +117,33 @@ class SimpleNetwork:
             W_history.append(self.W.copy())  # x의 복사본을 x 변화 과정에 기록
             grad = self.gradient(x, t)  # x에서의 gradient를 계산
             self.W -= lr * grad  # x_new = x_init - lr * grad: x를 변경 lr : 변화율
-            # print('W:', self.W)
+            print('W:', self.W)
         return self.predict(x)
 
 
 if __name__ == '__main__':
     # SimpleNetwork 클래스 객체를 생성
     network = SimpleNetwork()  # 생성자 호출  -> init method 호출
-    # print('W =', network.W)
+    print('W =', network.W)
 
     # x = [0.6, 0.9]일 때 y_true = [0, 0, 1]이라고 가정
     x = np.array([0.6, 0.9])
     y_true = np.array([0., 0., 1.])
-    # print('x =', x)
-    # print('y_true =', y_true)
+    print('x =', x)
+    print('y_true =', y_true)
 
     y_pred = network.predict(x)
     print('y_pred =', y_pred)
 
     ce = network.loss(x, y_true)
-    # print('cross entropy =', ce)
+    print('cross entropy =', ce)
     #
-    result = network.gradient_method(x, y_true)
+    result = network.gradient_method(x, y_true, lr=0.5, step=50)
     print('result =', result)
 
     # print('g1 =', g1)
 
-    lr = 0.2
+    # lr = 0.2
     # for i in range(1000):
     #     g1 = network.gradient(x, y_true)
     #     network.W -= lr * g1
