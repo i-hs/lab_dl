@@ -10,15 +10,15 @@ class Affine:
 
     def forward(self, X):
         self.X = X  # 역전파에서 사용됨
-        out = X.dot(self.W) + self.b
+        out = self.X.dot(self.W) + self.b
         return out
 
     def backward(self, dout):
         # b 행렬 방향으로의 gradient
         self.db = np.sum(dout, axis=0)
         # Z 행렬 방향으로의 gradient -> W 방향, X 방향으로의 gradient
-        self.dW = X.T.dot(dout)  # GD를 이용해서 W, b를 fitting 시킬 때 사용하기 위해서
-        dX = dout.dot(W.T)
+        self.dW = self.X.T.dot(dout)  # GD를 이용해서 W, b를 fitting 시킬 때 사용하기 위해서
+        dX = dout.dot(self.W.T)
         return dX
 
 

@@ -52,7 +52,10 @@ class SoftmaxWithLoss:
         return self.loss
 
     def backward(self, dout=1):
-        n = self.y_true.shape[0]  # one-hot-encoding 행렬의 row 개수
+        if self.y_true.ndim == 1:  # 1차원 ndarray
+            n = 1
+        else:  # 2차원 ndarray
+            n = self.y_true.shape[0]  # one-hot-encoding 행렬의 row 개수
         dx = (self.y_pred - self.y_true) / n  # 오차들의 평균
         return dx
 

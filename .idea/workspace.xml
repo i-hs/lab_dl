@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e66eda-6cab-426e-9e7d-f058cb324c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch05/ex05_relu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch05/ex06_dot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch05/ex07_affine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch05/ex08_softmax_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/ex09_total_application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/ex10_twolayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/ex11_neural_network_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/ex04_sigmoid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/ex04_sigmoid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/ex05_relu.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/ex05_relu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/ex07_affine.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/ex07_affine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/ex08_softmax_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/ex08_softmax_loss.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,91 +46,7 @@
       <recent name="C:\dev\lab_dl\ch01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex08_softmax_loss">
-    <configuration name="ex05_relu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab_dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05/ex05_relu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex06_dot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab_dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05/ex06_dot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex07_affine (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab_dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/ex07_affine (1).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex07_affine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab_dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05/ex07_affine.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ex11_neural_network_test">
     <configuration name="ex08_softmax_loss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,13 +68,97 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex09 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab_dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/ex09 (2).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex09_total_application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab_dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05/ex09_total_application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex10_twolayer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab_dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05/ex10_twolayer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex11_neural_network_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab_dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05/ex11_neural_network_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex11_neural_network_test" />
+        <item itemvalue="Python.ex10_twolayer" />
+        <item itemvalue="Python.ex09_total_application" />
         <item itemvalue="Python.ex08_softmax_loss" />
-        <item itemvalue="Python.ex07_affine (1)" />
-        <item itemvalue="Python.ex07_affine" />
-        <item itemvalue="Python.ex06_dot" />
-        <item itemvalue="Python.ex05_relu" />
+        <item itemvalue="Python.ex09 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -207,22 +208,22 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="740" y="355" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1577420296769" />
-    <state width="1899" height="363" key="GridCell.Tab.0.bottom" timestamp="1578038934470">
+    <state width="1899" height="314" key="GridCell.Tab.0.bottom" timestamp="1578300667807">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1578038934470" />
-    <state width="1899" height="363" key="GridCell.Tab.0.center" timestamp="1578038934470">
+    <state width="1899" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1578300667807" />
+    <state width="1899" height="314" key="GridCell.Tab.0.center" timestamp="1578300667807">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="363" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1578038934470" />
-    <state width="1899" height="363" key="GridCell.Tab.0.left" timestamp="1578038934470">
+    <state width="1899" height="314" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1578300667807" />
+    <state width="1899" height="314" key="GridCell.Tab.0.left" timestamp="1578300667807">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="363" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1578038934470" />
-    <state width="1899" height="363" key="GridCell.Tab.0.right" timestamp="1578038934470">
+    <state width="1899" height="314" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1578300667807" />
+    <state width="1899" height="314" key="GridCell.Tab.0.right" timestamp="1578300667807">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="363" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1578038934470" />
+    <state width="1899" height="314" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1578300667807" />
     <state width="1899" height="411" key="GridCell.Tab.1.bottom" timestamp="1577784008835">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -243,10 +244,14 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="241" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1577760000897" />
-    <state x="652" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1578271326811">
+    <state x="652" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1578273934227">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="652" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1578271326811" />
+    <state x="652" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1578273934227" />
+    <state x="764" y="517" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578272933454">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="764" y="517" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1200@0.0.1920.1200" timestamp="1578272933454" />
     <state x="530" y="336" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577693861753">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -263,9 +268,9 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="601" y="326" width="700" height="530" key="recent.locations.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1577695562443" />
-    <state x="623" y="265" width="672" height="160" key="search.everywhere.popup" timestamp="1577963655144">
+    <state x="623" y="265" width="672" height="290" key="search.everywhere.popup" timestamp="1578299750125">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="623" y="265" width="672" height="160" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1577963655144" />
+    <state x="623" y="265" width="672" height="290" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1578299750125" />
   </component>
 </project>
