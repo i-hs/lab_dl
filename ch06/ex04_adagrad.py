@@ -34,7 +34,7 @@ if __name__ == '__main__':
     gradients = {'x': 0., 'y': 0.}
     x_history = []
     y_history = []
-    for i in range(30):
+    for i in range(100):
         x_history.append(params['x'])
         y_history.append(params['y'])
         gradients['x'], gradients['y'] = fn_derivative(params['x'], params['y'])

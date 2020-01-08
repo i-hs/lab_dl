@@ -14,15 +14,16 @@ from ch06.ex01_matplot3d import fn_derivative, fn
 class Adam:
     def __init__(self, lr=0.01):
         self.lr = lr  # 학습률
+        self.t = 0
         self.m = dict()
         self.v = dict()
         self.beta_1 = 0.9
         self.beta_2 = 0.999
         self.etha = 1e-8
-        self.m_hat = dict()
-        self.v_hat = dict()
 
-    def update(self, params, gradients, t):
+
+    def update(self, params, gradients):
+        self.t += 1
         if not self.m:
             for key in params:
                 self.m[key] = np.zeros_like(params[key])
@@ -31,9 +32,9 @@ class Adam:
             for key in params:
                 self.m[key] = self.beta_1 * self.m[key] + (1 - self.beta_1) * gradients[key]
                 self.v[key] = self.beta_2 * self.v[key] + (1 - self.beta_2) * gradients[key] * gradients[key]
-                self.m_hat[key] = self.m[key] / (1 - self.beta_1 ** t)
-                self.v_hat[key] = self.v[key] / (1 - self.beta_2 ** t)
-                params[key] -= self.lr * self.m_hat[key] / np.sqrt(self.v_hat[key] + self.etha)
+                m_hat = self.m[key] / (1 - self.beta_1 ** self.t)
+                v_hat = self.v[key] / (1 - self.beta_2 ** self.t)
+                params[key] -= self.lr * m_hat / np.sqrt(v_hat + self.etha)
 
 
 if __name__ == '__main__':
@@ -46,7 +47,7 @@ if __name__ == '__main__':
         x_history.append(params['x'])
         y_history.append(params['y'])
         gradients['x'], gradients['y'] = fn_derivative(params['x'], params['y'])
-        adam.update(params, gradients, i + 1)
+        adam.update(params, gradients)
 
     for x, y in zip(x_history, y_history):
         print(f'({x}, {y})')
