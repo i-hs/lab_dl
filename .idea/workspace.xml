@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e66eda-6cab-426e-9e7d-f058cb324c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch06/ex06_RMSProp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch06/ex07_nesterov.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch06/ex09_weight_init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch06/optimizer_compare_mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/gradient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/layers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/multi_layer_net.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/multi_layer_net_extend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/optimizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06/ex10_weight_compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06/ex11_batch_normalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06/ex12_weight_decay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06/ex13_dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06/hyperparameter_optimization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/ex04_adagrad.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch06/ex04_adagrad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/ex05_adam.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch06/ex05_adam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/ex3_momentum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/ex09_weight_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch06/ex09_weight_init.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +41,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\lab_dl\ch06" />
-      <recent name="C:\dev\lab_dl" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\lab_dl\ch03" />
       <recent name="C:\dev\lab_dl\ch01" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\lab_dl\ch06" />
+      <recent name="C:\dev\lab_dl" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.ex08_compare">
-    <configuration name="ex06_RMSProp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.hyperparameter_optimization">
+    <configuration name="ex10_weight_compare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,7 +63,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex06_RMSProp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex10_weight_compare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex07_nesterov" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex11_batch_normalization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,7 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex07_nesterov.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex11_batch_normalization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex08_compare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex12_weight_decay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex08_compare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex12_weight_decay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex09_weight_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex13_dropout" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +126,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex09_weight_init.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex13_dropout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="optimizer_compare_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hyperparameter_optimization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,7 +147,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/optimizer_compare_mnist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/hyperparameter_optimization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex08_compare" />
-        <item itemvalue="Python.ex09_weight_init" />
-        <item itemvalue="Python.optimizer_compare_mnist" />
-        <item itemvalue="Python.ex07_nesterov" />
-        <item itemvalue="Python.ex06_RMSProp" />
+        <item itemvalue="Python.hyperparameter_optimization" />
+        <item itemvalue="Python.ex12_weight_decay" />
+        <item itemvalue="Python.ex13_dropout" />
+        <item itemvalue="Python.ex11_batch_normalization" />
+        <item itemvalue="Python.ex10_weight_compare" />
       </list>
     </recent_temporary>
   </component>
@@ -226,22 +216,22 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="740" y="355" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1577420296769" />
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1578474120759">
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1578646271668">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1578474120759" />
-    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1578474120759">
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1578646271668" />
+    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1578646271668">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1578474120759" />
-    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1578474120759">
+    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1578646271668" />
+    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1578646271668">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1578474120759" />
-    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1578474120759">
+    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1578646271668" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1578646271668">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1578474120759" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1578646271668" />
     <state width="1899" height="411" key="GridCell.Tab.1.bottom" timestamp="1577784008835">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -286,9 +276,9 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="601" y="326" width="700" height="530" key="recent.locations.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1577695562443" />
-    <state x="623" y="265" width="672" height="290" key="search.everywhere.popup" timestamp="1578470750373">
+    <state x="623" y="265" width="672" height="290" key="search.everywhere.popup" timestamp="1578637348283">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="623" y="265" width="672" height="290" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1578470750373" />
+    <state x="623" y="265" width="672" height="290" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1578637348283" />
   </component>
 </project>
