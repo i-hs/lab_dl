@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e66eda-6cab-426e-9e7d-f058cb324c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch06/ex10_weight_compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch06/ex11_batch_normalization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch06/ex12_weight_decay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch06/ex13_dropout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch06/hyperparameter_optimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07/desert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07/ex01_convolution1d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07/ex02_convolution2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07/ex03_padding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07/ex04_ conv_pad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07/ex05_image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/ex09_weight_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch06/ex09_weight_init.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +38,22 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch06" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch07" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\lab_dl\ch07" />
+      <recent name="C:\dev\lab_dl\ch06" />
+      <recent name="C:\dev\lab_dl" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\lab_dl\ch03" />
       <recent name="C:\dev\lab_dl\ch01" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\lab_dl\ch06" />
-      <recent name="C:\dev\lab_dl" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.hyperparameter_optimization">
-    <configuration name="ex10_weight_compare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ex05_image">
+    <configuration name="ex01_convolution1d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex10_weight_compare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex01_convolution1d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex11_batch_normalization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex02_convolution2d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex11_batch_normalization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex02_convolution2d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex12_weight_decay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex03_padding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex12_weight_decay.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex03_padding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex13_dropout" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex04_ conv_pad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex13_dropout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex04_ conv_pad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hyperparameter_optimization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex05_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/hyperparameter_optimization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex05_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hyperparameter_optimization" />
-        <item itemvalue="Python.ex12_weight_decay" />
-        <item itemvalue="Python.ex13_dropout" />
-        <item itemvalue="Python.ex11_batch_normalization" />
-        <item itemvalue="Python.ex10_weight_compare" />
+        <item itemvalue="Python.ex05_image" />
+        <item itemvalue="Python.ex04_ conv_pad" />
+        <item itemvalue="Python.ex03_padding" />
+        <item itemvalue="Python.ex02_convolution2d" />
+        <item itemvalue="Python.ex01_convolution1d" />
       </list>
     </recent_temporary>
   </component>
@@ -212,26 +214,30 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="697" y="403" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1578462121697" />
+    <state x="690" y="347" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578903802364">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="690" y="347" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1578903802364" />
     <state x="740" y="355" key="FileChooserDialogImpl" timestamp="1577420296769">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="740" y="355" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1577420296769" />
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1578646271668">
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1578905245092">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1578646271668" />
-    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1578646271668">
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1578905245092" />
+    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1578905245092">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1578646271668" />
-    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1578646271668">
+    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1578905245092" />
+    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1578905245092">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1578646271668" />
-    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1578646271668">
+    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1578905245092" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1578905245092">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1578646271668" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1578905245092" />
     <state width="1899" height="411" key="GridCell.Tab.1.bottom" timestamp="1577784008835">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -252,10 +258,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="241" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1577760000897" />
-    <state x="652" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1578464038866">
+    <state x="652" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1578876388212">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="652" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1578464038866" />
+    <state x="652" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1578876388212" />
     <state x="764" y="517" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578272933454">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
