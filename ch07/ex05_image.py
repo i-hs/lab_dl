@@ -24,6 +24,6 @@ filter = np.zeros((3, 3, 3))
 print(filter)
 filter[1, 1, 0] = 2.0
 print(filter)
-transformed = convolve(img_pixel, filter, mode='same') / 255
+transformed = convolve(img_pixel, filter, mode='same')
 plt.imshow((transformed * 255).astype(np.uint8))
 plt.show()
