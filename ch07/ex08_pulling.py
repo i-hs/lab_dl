@@ -89,6 +89,7 @@ if __name__ == '__main__':
     plt.show()
 
     img = Image.open('desert.jpg')
+
     img_pixel = np.array(img)
     print(img_pixel.shape)
     img_r = img_pixel[:,:,0]
@@ -110,12 +111,6 @@ if __name__ == '__main__':
     print(tf_img_integrated.shape)
     plt.imshow(tf_img_integrated)
     plt.show()
-
-
-
-
-
-
-
+    ###################################################################
 
 

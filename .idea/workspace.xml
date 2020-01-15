@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e66eda-6cab-426e-9e7d-f058cb324c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch07/ex09_convconv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07/ex10_classconv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07/pengsoo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/ex08_pulling.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch07/ex08_pulling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/ex10_classconv.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch07/ex10_classconv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +34,18 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch07" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\lab_dl\ch03" />
+      <recent name="C:\dev\lab_dl\ch01" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dev\lab_dl\ch07" />
       <recent name="C:\dev\lab_dl\ch06" />
       <recent name="C:\dev\lab_dl" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\lab_dl\ch03" />
-      <recent name="C:\dev\lab_dl\ch01" />
     </key>
   </component>
   <component name="RunManager" selected="Python.ex10_classconv">
@@ -156,8 +157,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.ex10_classconv" />
-        <item itemvalue="Python.ex09_convconv" />
         <item itemvalue="Python.ex08_pulling (1)" />
+        <item itemvalue="Python.ex09_convconv" />
         <item itemvalue="Python.ex08_pooling (2)" />
         <item itemvalue="Python.ex06_index" />
       </list>
@@ -217,22 +218,22 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="740" y="355" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1578965645996" />
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1579076362313">
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1579079771477">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579076362313" />
-    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1579076362313">
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579079771477" />
+    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1579079771477">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579076362313" />
-    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1579076362313">
+    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579079771477" />
+    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1579079771477">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579076362313" />
-    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1579076362313">
+    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579079771477" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1579079771477">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579076362313" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579079771477" />
     <state width="1899" height="411" key="GridCell.Tab.1.bottom" timestamp="1577784008835">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

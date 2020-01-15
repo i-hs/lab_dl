@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from PIL import Image
+
 from common.util import im2col
 from dataset.mnist import load_mnist
 
@@ -55,3 +57,9 @@ if __name__ == '__main__':
     print('img:', img.shape)
     plt.imshow(img, cmap='gray')
     plt.show()
+
+    img = Image.open('pengsoo.jpg')
+
+    img_pixel = np.array(img)
+
+    print(img_pixel.shape)  # (1357, 1920, 3)
