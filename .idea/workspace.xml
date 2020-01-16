@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e66eda-6cab-426e-9e7d-f058cb324c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch07/pengsoo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07/ex11_pooling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/ex08_pulling.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch07/ex08_pulling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/ex10_classconv.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch07/ex10_classconv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,49 +46,7 @@
       <recent name="C:\dev\lab_dl" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex10_classconv">
-    <configuration name="ex06_index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab_dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex06_index.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex08_pooling (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab_dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/ex08_pooling (2).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ex12_POolInG">
     <configuration name="ex08_pulling (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,13 +110,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex11_pooling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab_dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex11_pooling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex12_POolInG" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab_dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex12_POolInG.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex12_POolInG" />
+        <item itemvalue="Python.ex11_pooling" />
         <item itemvalue="Python.ex10_classconv" />
         <item itemvalue="Python.ex08_pulling (1)" />
         <item itemvalue="Python.ex09_convconv" />
-        <item itemvalue="Python.ex08_pooling (2)" />
-        <item itemvalue="Python.ex06_index" />
       </list>
     </recent_temporary>
   </component>
@@ -218,46 +216,46 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="740" y="355" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1578965645996" />
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1579079771477">
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1579153767809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579079771477" />
-    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1579079771477">
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579153767809" />
+    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1579153767809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579079771477" />
-    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1579079771477">
+    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579153767809" />
+    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1579153767809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579079771477" />
-    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1579079771477">
+    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579153767809" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1579153767809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579079771477" />
-    <state width="1899" height="411" key="GridCell.Tab.1.bottom" timestamp="1577784008835">
+    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579153767809" />
+    <state width="1899" height="411" key="GridCell.Tab.1.bottom" timestamp="1579151696946">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="411" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1577784008835" />
-    <state width="1899" height="411" key="GridCell.Tab.1.center" timestamp="1577784008835">
+    <state width="1899" height="411" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579151696946" />
+    <state width="1899" height="411" key="GridCell.Tab.1.center" timestamp="1579151696946">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="411" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1577784008835" />
-    <state width="1899" height="411" key="GridCell.Tab.1.left" timestamp="1577784008835">
+    <state width="1899" height="411" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579151696946" />
+    <state width="1899" height="411" key="GridCell.Tab.1.left" timestamp="1579151696946">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="411" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1577784008835" />
-    <state width="1899" height="411" key="GridCell.Tab.1.right" timestamp="1577784008835">
+    <state width="1899" height="411" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579151696946" />
+    <state width="1899" height="411" key="GridCell.Tab.1.right" timestamp="1579151696946">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="411" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1577784008835" />
+    <state width="1899" height="411" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579151696946" />
     <state x="461" y="241" key="SettingsEditor" timestamp="1577760000897">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="241" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1577760000897" />
-    <state x="652" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1579066447739">
+    <state x="652" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1579134752028">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="652" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1579066447739" />
+    <state x="652" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1579134752028" />
     <state x="764" y="517" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578272933454">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -278,10 +276,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="601" y="326" width="700" height="530" key="recent.locations.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1577695562443" />
-    <state x="623" y="265" width="672" height="290" key="search.everywhere.popup" timestamp="1579071823284">
+    <state x="623" y="265" width="672" height="290" key="search.everywhere.popup" timestamp="1579150987768">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="623" y="265" width="672" height="290" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1579071823284" />
+    <state x="623" y="265" width="672" height="290" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1579150987768" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
