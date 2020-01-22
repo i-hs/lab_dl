@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e66eda-6cab-426e-9e7d-f058cb324c3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch07/ex14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07/keras_functional_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch08/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch08/functional_api2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +49,8 @@
       <recent name="C:\dev\lab_dl" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.iris_nn">
-    <configuration name="ex11_pooling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.functional_api2">
+    <configuration name="ex14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,7 +62,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex11_pooling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -67,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex12_POolInG" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="functional_api2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab_dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,32 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ex12_POolInG.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="example_tensorflow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab_dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/example_tensorflow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch08/functional_api2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,13 +134,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="keras_functional_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab_dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/keras_functional_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.functional_api2" />
+        <item itemvalue="Python.keras_functional_api" />
+        <item itemvalue="Python.ex14" />
         <item itemvalue="Python.iris_nn" />
         <item itemvalue="Python.iris_nn (1)" />
-        <item itemvalue="Python.ex12_POolInG" />
-        <item itemvalue="Python.example_tensorflow" />
-        <item itemvalue="Python.ex11_pooling" />
       </list>
     </recent_temporary>
   </component>
@@ -215,22 +219,22 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="740" y="355" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1578965645996" />
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1579511429861">
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1579670365426">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579511429861" />
-    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1579511429861">
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579670365426" />
+    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1579670365426">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579511429861" />
-    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1579511429861">
+    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579670365426" />
+    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1579670365426">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579511429861" />
-    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1579511429861">
+    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579670365426" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1579670365426">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579511429861" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579670365426" />
     <state width="1899" height="411" key="GridCell.Tab.1.bottom" timestamp="1579151696946">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
